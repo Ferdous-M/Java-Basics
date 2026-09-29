@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-            System.out.println("bismillah , amantubillah, alhamdulillah, ya hafizu ");
+          //  System.out.println("bismillah , amantubillah, alhamdulillah, ya hafizu ");
 
     }
 }
