@@ -5,5 +5,11 @@ public class Main {
 
           //  System.out.println("bismillah , amantubillah, alhamdulillah, ya hafizu ");
 
+        String a = new String("hello");
+        String b = new String("hello");
+
+        System.out.println(a == b);
+        System.out.println(a.equals(b));
+
     }
 }
