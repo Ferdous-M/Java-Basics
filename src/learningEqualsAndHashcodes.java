@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class learningEqualsAndHashcodes {
     public static void main(String[] args) {
 
@@ -8,6 +11,13 @@ public class learningEqualsAndHashcodes {
 
         System.out.println(e1.equals(e2));             // true
         System.out.println(e1.hashCode() == e2.hashCode()); // true
+
+        Set<Employee> employees = new HashSet<>();
+
+        employees.add(e1);
+        employees.add(e2);
+
+        System.out.println(employees.size());
 
     }
 }
@@ -47,3 +57,20 @@ class Employee {
 //        a.hashCode() == b.hashCode()
 //        ↓
 //                a.equals(b)
+
+
+//
+//Set<Employee> employees = new HashSet<>();
+//
+//employees.add(e1);
+//employees.add(e2);
+//
+//If e1 and e2 represent the same employee according to equals(), we want the HashSet to recognize them as equal.
+//
+//That's why:
+//
+//Override equals() → override hashCode() together.
+//
+//        🔥 Memorize this one sentence for tomorrow:
+//
+//        “If two objects are equal according to equals(), they must have the same hash code; therefore, whenever we override equals(), we should override hashCode() consistently.”
