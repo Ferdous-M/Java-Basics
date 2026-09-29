@@ -16,6 +16,10 @@ public class Main {
 
         //equals() → compares values/compares logical content
         //"Do these two String objects contain the same sequence of characters?"  → true
+        String ab = "hello";
+        String ba = "hello";
+        System.out.println("Comparing 2 strings variables"  );
+        System.out.println(ab == ba);
 
     }
 }
