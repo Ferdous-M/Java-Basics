@@ -23,3 +23,17 @@ class Employee {
         return this.id == other.id;
     }
 }
+//If two objects are equal according to equals(), they must have the same hashCode().
+
+
+//a.equals(b) == true
+//        ↓
+//        a.hashCode() == b.hashCode()
+//MUST be true
+
+
+//But the reverse is not required:
+//
+//        a.hashCode() == b.hashCode()
+//        ↓
+//                a.equals(b)
