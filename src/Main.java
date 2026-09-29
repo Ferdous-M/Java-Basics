@@ -21,5 +21,12 @@ public class Main {
         System.out.println("Comparing 2 strings variables"  );
         System.out.println(ab == ba);
 
+        String x = null;
+        String y = "hello";
+
+       // System.out.println(x.equals(y)); // This will throw a NullPointerException
+        System.out.println("\"hello\".equals(a)"  );
+        System.out.println( "hello".equals(x));
+        System.out.println( "hello".equals(y));
     }
 }
