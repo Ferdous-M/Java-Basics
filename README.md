@@ -1,18 +1,6 @@
 /*
 
-                 Object
-                    |
-                    v
-               hashCode()
-                    |
-                    v
-              Find bucket
-                    |
-                    v
-                 equals()
-                    |
-                    v
-          Same logical object?
+           
 
 ⭐ One thing I especially want to keep
 
