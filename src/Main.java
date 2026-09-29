@@ -10,6 +10,12 @@ public class Main {
 
         System.out.println(a == b);
         System.out.println(a.equals(b));
+        //== → compares references
+        //"Are a and b referring to the exact same object?"   →  false
+
+
+        //equals() → compares values/compares logical content
+        //"Do these two String objects contain the same sequence of characters?"  → true
 
     }
 }
